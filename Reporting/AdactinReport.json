@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify with various credentials",
+        "description": "",
+        "id": "verify-adactin-applicatin;verify-with-various-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8377402000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be in adactin page",
+            "match": {
+              "location": "CucumberTableStep.user_should_be_in_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306291100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter username and password",
+            "match": {
+              "location": "CucumberTableStep.user_should_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 876843900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click login button",
+            "match": {
+              "location": "CucumberTableStep.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter into the adactin application",
+            "match": {
+              "location": "CucumberTableStep.user_should_enter_into_the_adactin_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify Adactin Applicatin",
+    "description": "",
+    "id": "verify-adactin-applicatin",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Features/DataTable.feature",
+    "tags": []
+  }
+]
